@@ -3,7 +3,8 @@
 1. Make sure the [correct Ruby version](https://github.com/velvetreactor/ankii/blob/main/.ruby-version) is installed
 2. Run `bundle install`
 3. Bring up all Docker services: `docker-compose up -d`
-4. Start the server: `bundle exec rails s`
+4. Run database migrations: `bundle exec rails db:prepare`
+5. Start the server: `bundle exec rails s`
 
 # Necessary tools
 
