@@ -1,3 +1,15 @@
+# Quick start
+
+1. Make sure the [correct Ruby version](https://github.com/velvetreactor/ankii/blob/main/.ruby-version) is installed
+2. Run `bundle install`
+3. Bring up all Docker services: `docker-compose up -d`
+4. Start the server: `bundle exec rails s`
+
+# Necessary tools
+
+- Docker
+  - Good idea to create an account on [Docker Hub](https://hub.docker.com/) and save credentials in 1Password
+
 # Troubleshooting
 
 ## Can't find the 'libpq-fe.h header
